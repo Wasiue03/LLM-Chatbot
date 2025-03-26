@@ -1,11 +1,3 @@
-import pyttsx3
-
-class TTS:
-    def __init__(self):
-        self.engine = pyttsx3.init()
-        self.engine.setProperty('rate', 150)  # Speed percent
-        self.engine.setProperty('volume', 0.9)  # Volume 0-1
-        
-    def speak(self, text):
-        self.engine.say(text)
-        self.engine.runAndWait()
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7a578487b728ab2bc0d5b4e8decff85c4c2135761384e664a81a0d689299053
+size 319
